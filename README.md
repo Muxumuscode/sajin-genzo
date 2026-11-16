@@ -1,11 +1,24 @@
 # Sajin Genzō 사진現像
 
-**A photo lab for your FAUXJI film rolls, and for photos from any camera.** 사진 (*sajin*) is Korean for photo, 現像 (*genzō*) is Japanese for developing: a Samsung
-camera with Fuji film looks gets a half-Korean, half-Japanese lab. (Working name and Python package: `safelight`.) The FAUXJI film camera (the TL500's SCENE position) shoots rolls of 36 into `FILMS/` on the card and
-won't show you a single frame. Sajin Genzō is the other half: it finds the rolls, lays them out as negatives on a light table, and develops
-whole rolls the way a lab would, with the results as prints and a contact sheet.
+**A film photo lab for any photo.** Drop in photos from your phone or camera, pick a film and a lab, and get prints back with real film
+character: grain, halation, light leaks, faded warm paper, borders and frames, a soft highlight roll-off, and a trip through the developer,
+stop bath, fixer and wash that is fun to watch. Two ways to work: the **Photo Lab** (a few choices, like sending a roll to a lab) and the
+**Darkroom** (every setting, frame by frame, with single prints, versions, crop and straighten, and your own recipes).
 
-Windows and Linux. Your originals are never changed.
+사진 (*sajin*) is Korean for photo, 現像 (*genzō*) is Japanese for developing. (The Python package keeps its working name, `safelight`.)
+
+It also reads the rolls of the **FAUXJI film camera**, a firmware mod for the Samsung TL500 that shoots rolls of 36 into `FILMS/` on the card
+and won't show you a single frame ([the camera mod](https://github.com/Muxumuscode/fauxji-film-tl500)). Sajin Genzō is the other half of that
+camera: it lays the rolls out as negatives on a light table and develops them. You do not need the camera to use the app.
+
+Windows and Linux. Your originals are never changed. MIT licence.
+
+| | |
+|---|---|
+| ![The start screen](docs/screenshots/01-start.png) | ![Choosing a film in the Photo Lab](docs/screenshots/02-photo-lab-film.png) |
+| ![The developing tray](docs/screenshots/03-developing.png) | ![The print preview, framed](docs/screenshots/04-darkroom-framed-preview.png) |
+
+*(Screenshots use generated test pictures. Crop and straighten: [docs/screenshots/05-crop-and-straighten.png](docs/screenshots/05-crop-and-straighten.png).)*
 
 ## What it does
 
@@ -91,7 +104,7 @@ Windows and Linux. Your originals are never changed.
 
 ## Download
 
-Windows: **SajinGenzo.exe** from the [Releases page](https://github.com/Muxumuscode/fauxji-film-tl500/releases) (one file, no install;
+Windows: **SajinGenzo.exe** from the [Releases page](https://github.com/Muxumuscode/sajin-genzo/releases) (one file, no install;
 Windows may warn that the app is from an unknown publisher: More info, Run anyway). Linux: build it (below).
 
 > Not affiliated with Samsung or Fujifilm. Fujifilm's film names (Provia, Velvia, Acros, Classic Chrome ...) are their trademarks; they are
